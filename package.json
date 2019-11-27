@@ -1,26 +1,26 @@
 {
-  "name": "depc_portfolio_site_generator",
-  "version": "1.0.0",
-  "description": "Portfolio Site Generator for David Pineda DEParadise Creative",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/deparadise/DEPC_portfolio_site_generator.git"
-  },
-  "keywords": [
-    "Webflow",
-    "Node",
-    "Gatsby",
-    "React",
-    "GraphQL"
-  ],
-  "author": "David Pineda",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/deparadise/DEPC_portfolio_site_generator/issues"
-  },
-  "homepage": "https://github.com/deparadise/DEPC_portfolio_site_generator#readme"
+	"name": "depc_portfolio_site_generator",
+	"version": "1.0.0",
+	"description": "Portfolio Site Generator for David Pineda DEParadise Creative",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/deparadise/DEPC_portfolio_site_generator.git"
+	},
+	"keywords": [
+		"Webflow",
+		"Node",
+		"Gatsby",
+		"React",
+		"GraphQL"
+	],
+	"author": "David Pineda",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/deparadise/DEPC_portfolio_site_generator/issues"
+	},
+	"homepage": "https://github.com/deparadise/DEPC_portfolio_site_generator#readme"
 }
