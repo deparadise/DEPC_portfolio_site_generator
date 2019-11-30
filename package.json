@@ -7,8 +7,9 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"install_global_dependencies": "npm install -g ncp && npm install -g rimraf",
 		"clear_last_prod_deployment": "rimraf ../deparadise/*",
-		"copy_mock_up_to_prod": "ncp ./src/mock_ups/next ../deparadise",
-		"deploy_next_mock_up_to_prod": "npm run clear_last_prod_deployment && npm run copy_mock_up_to_prod"
+		"copy_mock_to_prod": "ncp ./src/mock_ups/next ../deparadise",
+		"deploy_next_mock_to_prod": "npm run clear_last_prod_deployment && npm run copy_mock_to_prod",
+		"run_mock_dev": "gulp serve_mock"
 	},
 	"repository": {
 		"type": "git",
