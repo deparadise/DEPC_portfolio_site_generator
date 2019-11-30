@@ -1,9 +1,12 @@
 // SITE GENERATOR GULP TASK INDEX
+var gulp = require('gulp');
+var browserSync = require('browser-sync').create();
 
-function defaultTask(cb) {
-	// DEFUALT when run as: gulp
-	console.log('>> GULP has started work...');
-	cb();
-}
+gulp.task('serve_mock', function() {
+	let mockUpSource = './src/mock_ups/next';
+	browserSync.init({
+		server: mockUpSource
+	});
 
-exports.default = defaultTask;
+	gulp.watch(mockUpSource).on('change', browserSync.reload);
+});
