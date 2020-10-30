@@ -16,11 +16,7 @@
 		"url": "git+https://github.com/deparadise/DEPC_portfolio_site_generator.git"
 	},
 	"keywords": [
-		"Webflow",
-		"Node",
-		"Gatsby",
-		"React",
-		"GraphQL"
+		"Webflow"
 	],
 	"author": "David Pineda",
 	"license": "ISC",
